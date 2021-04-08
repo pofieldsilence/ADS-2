@@ -14,12 +14,12 @@ int countPairs1(int *arr, int len, int value) {
       }
     }
 
-   return count;
+    return count;
 }
 
 int countPairs2(int *arr, int len, int value) {
   if (len == 0) return 0;
-  
+
   int count = 0;
 
   int firstIndex = 0;
@@ -41,7 +41,7 @@ int countPairs2(int *arr, int len, int value) {
       }
     }
   }
-  
+
   return count;
 }
 
